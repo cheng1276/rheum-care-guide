@@ -1,0 +1,7 @@
+# Not part of the public site: repository files, the build sources and the evidence files
+.git
+.gitignore
+wrangler.jsonc
+README.md
+src/
+evidence/

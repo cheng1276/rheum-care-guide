@@ -1,0 +1,13 @@
+// Cloudflare Worker that serves the static site 風濕免疫生活照護圖解 from this folder.
+// The site is built in the cheng1276/cheng1276.github.io repository (folder rheum-care-guide/);
+// this repository is a copy of that folder, updated together with it.
+{
+	"name": "rheum-care-guide",
+	"compatibility_date": "2026-10-25",
+	"assets": {
+		"directory": "."
+	},
+	// Public URL: rheum-care-guide.<account subdomain>.workers.dev
+	"workers_dev": true,
+	"preview_urls": false
+}
